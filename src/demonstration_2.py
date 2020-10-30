@@ -54,7 +54,7 @@ class TreeNode:
 
 def build_tree(preorder, inorder):
     # if list is empty, return None 
-    in len(preorder) == 0:
+    if len(preorder) == 0:
         return None
 
     # defining the beginning of the tree (with a class)
